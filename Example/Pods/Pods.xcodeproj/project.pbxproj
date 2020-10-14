@@ -13,6 +13,92 @@
 		271294392536B2A8008DA2D6 /* EOColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 271294372536B2A8008DA2D6 /* EOColorView.h */; };
 		2712945A2536CF18008DA2D6 /* UIColor+SaiV1Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 271294582536CF18008DA2D6 /* UIColor+SaiV1Color.m */; };
 		2712945B2536CF18008DA2D6 /* UIColor+SaiV1Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 271294592536CF18008DA2D6 /* UIColor+SaiV1Color.h */; };
+		27129D272536E18F008DA2D6 /* EUTDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298C72536E188008DA2D6 /* EUTDefine.h */; };
+		27129D282536E18F008DA2D6 /* Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298C82536E188008DA2D6 /* Singleton.h */; };
+		27129D292536E18F008DA2D6 /* GlobalConfig.pch in Headers */ = {isa = PBXBuildFile; fileRef = 271298C92536E188008DA2D6 /* GlobalConfig.pch */; };
+		27129D2A2536E18F008DA2D6 /* SaiJsonConversionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298CB2536E188008DA2D6 /* SaiJsonConversionModel.m */; };
+		27129D2B2536E18F008DA2D6 /* QKUITools.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298CC2536E188008DA2D6 /* QKUITools.h */; };
+		27129D2C2536E18F008DA2D6 /* GKTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298CD2536E188008DA2D6 /* GKTimer.h */; };
+		27129D2D2536E18F008DA2D6 /* SaiUIUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298CE2536E188008DA2D6 /* SaiUIUtils.h */; };
+		27129D2E2536E18F008DA2D6 /* SaiJsonConversionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298CF2536E188008DA2D6 /* SaiJsonConversionModel.h */; };
+		27129D2F2536E18F008DA2D6 /* GKTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298D02536E188008DA2D6 /* GKTimer.m */; };
+		27129D302536E18F008DA2D6 /* QKUITools.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298D12536E188008DA2D6 /* QKUITools.m */; };
+		27129D312536E18F008DA2D6 /* SaiUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298D22536E188008DA2D6 /* SaiUIUtils.m */; };
+		27129D322536E18F008DA2D6 /* BaseNC.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298D42536E188008DA2D6 /* BaseNC.h */; };
+		27129D332536E18F008DA2D6 /* SaiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298D52536E188008DA2D6 /* SaiTableView.m */; };
+		27129D342536E18F008DA2D6 /* BaseNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298D62536E188008DA2D6 /* BaseNC.m */; };
+		27129D352536E18F008DA2D6 /* SaiTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298D72536E188008DA2D6 /* SaiTableView.h */; };
+		27129D362536E18F008DA2D6 /* SaiAzeroManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298DC2536E188008DA2D6 /* SaiAzeroManager.h */; };
+		27129D372536E18F008DA2D6 /* SaiAzeroManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271298DD2536E188008DA2D6 /* SaiAzeroManager.mm */; };
+		27129D382536E18F008DA2D6 /* SaiBaseRootController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271298DF2536E188008DA2D6 /* SaiBaseRootController.mm */; };
+		27129D392536E18F008DA2D6 /* SaiBaseRootController.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298E02536E188008DA2D6 /* SaiBaseRootController.h */; };
+		27129D3A2536E18F008DA2D6 /* SaiNavigationConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298E22536E188008DA2D6 /* SaiNavigationConfig.h */; };
+		27129D3B2536E18F008DA2D6 /* SaiNavigationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298E32536E188008DA2D6 /* SaiNavigationConfig.m */; };
+		27129D3C2536E18F008DA2D6 /* SaiPlaySoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298E52536E188008DA2D6 /* SaiPlaySoundManager.m */; };
+		27129D3D2536E18F008DA2D6 /* AudioQueuePlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298E62536E188008DA2D6 /* AudioQueuePlay.h */; };
+		27129D3E2536E18F008DA2D6 /* SaiPlaySoundManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298E72536E188008DA2D6 /* SaiPlaySoundManager.h */; };
+		27129D3F2536E18F008DA2D6 /* AudioQueuePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298E82536E188008DA2D6 /* AudioQueuePlay.m */; };
+		27129D402536E18F008DA2D6 /* SaiHomePageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298EE2536E188008DA2D6 /* SaiHomePageViewController.h */; };
+		27129D412536E18F008DA2D6 /* SaiHomePageViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271298EF2536E188008DA2D6 /* SaiHomePageViewController.mm */; };
+		27129D422536E18F008DA2D6 /* SaiHomePageBallModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298F12536E188008DA2D6 /* SaiHomePageBallModel.h */; };
+		27129D432536E18F008DA2D6 /* SaiHomePageBallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298F22536E188008DA2D6 /* SaiHomePageBallModel.m */; };
+		27129D442536E18F008DA2D6 /* DCardLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298F42536E188008DA2D6 /* DCardLayoutView.m */; };
+		27129D452536E18F008DA2D6 /* DPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298F52536E188008DA2D6 /* DPoint.h */; };
+		27129D462536E18F008DA2D6 /* DMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298F62536E188008DA2D6 /* DMatrix.h */; };
+		27129D472536E18F008DA2D6 /* DCardLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298F72536E188008DA2D6 /* DCardLayoutView.h */; };
+		27129D482536E18F008DA2D6 /* SaiSoundWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298FA2536E188008DA2D6 /* SaiSoundWaveView.m */; };
+		27129D492536E18F008DA2D6 /* RecordSoundWaveAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298FB2536E188008DA2D6 /* RecordSoundWaveAnimationView.h */; };
+		27129D4A2536E18F008DA2D6 /* SaiSoundWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298FC2536E188008DA2D6 /* SaiSoundWaveView.h */; };
+		27129D4B2536E18F008DA2D6 /* RecordSoundWaveAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298FD2536E188008DA2D6 /* RecordSoundWaveAnimationView.m */; };
+		27129D4C2536E18F008DA2D6 /* PPGetAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 271299002536E188008DA2D6 /* PPGetAddressBook.m */; };
+		27129D4D2536E18F008DA2D6 /* PPPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 271299012536E188008DA2D6 /* PPPersonModel.m */; };
+		27129D4E2536E18F008DA2D6 /* PPAddressBookHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299022536E188008DA2D6 /* PPAddressBookHandle.h */; };
+		27129D4F2536E18F008DA2D6 /* PPGetAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299032536E188008DA2D6 /* PPGetAddressBook.h */; };
+		27129D502536E18F008DA2D6 /* PPPersonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299042536E188008DA2D6 /* PPPersonModel.h */; };
+		27129D512536E18F008DA2D6 /* PPAddressBookHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 271299052536E188008DA2D6 /* PPAddressBookHandle.m */; };
+		27129D522536E18F008DA2D6 /* SaiMpToPcmManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299072536E188008DA2D6 /* SaiMpToPcmManager.h */; };
+		27129D532536E18F008DA2D6 /* lame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271299082536E188008DA2D6 /* lame.framework */; };
+		27129D542536E18F008DA2D6 /* SaiAvPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 271299092536E188008DA2D6 /* SaiAvPlayerManager.m */; };
+		27129D552536E18F008DA2D6 /* GKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2712990A2536E188008DA2D6 /* GKAudioPlayer.h */; };
+		27129D562536E18F008DA2D6 /* SaiMpToPcmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2712990B2536E188008DA2D6 /* SaiMpToPcmManager.m */; };
+		27129D572536E18F008DA2D6 /* SaiAvPlayerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2712990C2536E188008DA2D6 /* SaiAvPlayerManager.h */; };
+		27129D582536E18F008DA2D6 /* GKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2712990D2536E188008DA2D6 /* GKAudioPlayer.m */; };
+		27129D592536E18F008DA2D6 /* XBEchoCancellation.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299102536E188008DA2D6 /* XBEchoCancellation.h */; };
+		27129D5A2536E18F008DA2D6 /* XBEchoCancellation.m in Sources */ = {isa = PBXBuildFile; fileRef = 271299112536E188008DA2D6 /* XBEchoCancellation.m */; };
+		27129D5B2536E18F008DA2D6 /* MySpeechSynthesizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271299132536E188008DA2D6 /* MySpeechSynthesizer.mm */; };
+		27129D5C2536E18F008DA2D6 /* SaiMp3AzeroSpeaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299142536E188008DA2D6 /* SaiMp3AzeroSpeaker.h */; };
+		27129D5D2536E18F008DA2D6 /* MyAzeroAudioPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271299152536E188008DA2D6 /* MyAzeroAudioPlayer.mm */; };
+		27129D5E2536E18F008DA2D6 /* MyAzeroExpress.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299162536E188008DA2D6 /* MyAzeroExpress.h */; };
+		27129D5F2536E18F008DA2D6 /* MyLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299172536E188008DA2D6 /* MyLogger.h */; };
+		27129D602536E18F008DA2D6 /* SaiAlertMediaPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271299182536E188008DA2D6 /* SaiAlertMediaPlayer.mm */; };
+		27129D612536E18F008DA2D6 /* MyLocalDetectorEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299192536E188008DA2D6 /* MyLocalDetectorEventHandler.h */; };
+		27129D622536E18F008DA2D6 /* SaiAzeroClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2712991A2536E188008DA2D6 /* SaiAzeroClient.mm */; };
+		27129D632536E18F008DA2D6 /* SaiAzeroClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2712991B2536E188008DA2D6 /* SaiAzeroClient.h */; };
+		27129D642536E18F008DA2D6 /* MySpeechRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2712991C2536E188008DA2D6 /* MySpeechRecognizer.mm */; };
+		27129D652536E18F008DA2D6 /* SaiMyAzeroModeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2712991D2536E188008DA2D6 /* SaiMyAzeroModeControl.h */; };
+		27129D662536E18F008DA2D6 /* SaiTtsAzeroSpeaker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2712991E2536E188008DA2D6 /* SaiTtsAzeroSpeaker.mm */; };
+		27129D672536E18F008DA2D6 /* SaiMp3MediaPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2712991F2536E188008DA2D6 /* SaiMp3MediaPlayer.mm */; };
+		27129D682536E18F008DA2D6 /* MyTemplateRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299202536E188008DA2D6 /* MyTemplateRuntime.h */; };
+		27129D692536E18F008DA2D6 /* MyAzeroAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299212536E188008DA2D6 /* MyAzeroAudioPlayer.h */; };
+		27129D6A2536E18F008DA2D6 /* MyAzeroAlerts.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299222536E188008DA2D6 /* MyAzeroAlerts.h */; };
+		27129D6B2536E18F008DA2D6 /* SaiMp3AzeroSpeaker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271299232536E188008DA2D6 /* SaiMp3AzeroSpeaker.mm */; };
+		27129D6C2536E18F008DA2D6 /* SaiMp3MediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299242536E188008DA2D6 /* SaiMp3MediaPlayer.h */; };
+		27129D6D2536E18F008DA2D6 /* MyCBL.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299252536E188008DA2D6 /* MyCBL.h */; };
+		27129D6E2536E18F008DA2D6 /* MyLogger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271299262536E188008DA2D6 /* MyLogger.mm */; };
+		27129D6F2536E18F008DA2D6 /* SaiTtsAzeroSpeaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299272536E188008DA2D6 /* SaiTtsAzeroSpeaker.h */; };
+		27129D702536E18F008DA2D6 /* SaiPhoneCallController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271299282536E188008DA2D6 /* SaiPhoneCallController.mm */; };
+		27129D712536E18F008DA2D6 /* MySpeechRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299292536E188008DA2D6 /* MySpeechRecognizer.h */; };
+		27129D722536E18F008DA2D6 /* MyLocalDetectorEventHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2712992A2536E188008DA2D6 /* MyLocalDetectorEventHandler.mm */; };
+		27129D732536E18F008DA2D6 /* MySpeechSynthesizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2712992B2536E188008DA2D6 /* MySpeechSynthesizer.h */; };
+		27129D742536E18F008DA2D6 /* SaiPhoneCallController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2712992C2536E189008DA2D6 /* SaiPhoneCallController.h */; };
+		27129D752536E18F008DA2D6 /* MyCBL.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2712992D2536E189008DA2D6 /* MyCBL.mm */; };
+		27129D762536E18F008DA2D6 /* MyAzeroExpress.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2712992E2536E189008DA2D6 /* MyAzeroExpress.mm */; };
+		27129D772536E18F008DA2D6 /* SaiTtsMediaPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2712992F2536E189008DA2D6 /* SaiTtsMediaPlayer.mm */; };
+		27129D782536E18F008DA2D6 /* MyTemplateRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271299302536E189008DA2D6 /* MyTemplateRuntime.mm */; };
+		27129D792536E18F008DA2D6 /* SaiMyAzeroModeControl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271299312536E189008DA2D6 /* SaiMyAzeroModeControl.mm */; };
+		27129D7A2536E18F008DA2D6 /* SaiTtsMediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299322536E189008DA2D6 /* SaiTtsMediaPlayer.h */; };
+		27129D7B2536E18F008DA2D6 /* SaiAlertMediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 271299332536E189008DA2D6 /* SaiAlertMediaPlayer.h */; };
+		27129D7C2536E18F008DA2D6 /* MyAzeroAlerts.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271299342536E189008DA2D6 /* MyAzeroAlerts.mm */; };
 		2DE5B035AC5665CEF7CC4091FCB31501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3571F21CCF724B6158DCB4D41124A265 /* Pods-AzeroSDK_iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1ED40ECEFA3979243385232B854993 /* Pods-AzeroSDK_iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		633948AD65C6BB732FEF60D5F89A7AFC /* Pods-AzeroSDK_iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66666A210030134FAA49CB9258E9744C /* Pods-AzeroSDK_iOS_Example-dummy.m */; };
@@ -46,6 +132,92 @@
 		271294372536B2A8008DA2D6 /* EOColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOColorView.h; sourceTree = "<group>"; };
 		271294582536CF18008DA2D6 /* UIColor+SaiV1Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SaiV1Color.m"; sourceTree = "<group>"; };
 		271294592536CF18008DA2D6 /* UIColor+SaiV1Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SaiV1Color.h"; sourceTree = "<group>"; };
+		271298C72536E188008DA2D6 /* EUTDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUTDefine.h; sourceTree = "<group>"; };
+		271298C82536E188008DA2D6 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		271298C92536E188008DA2D6 /* GlobalConfig.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConfig.pch; sourceTree = "<group>"; };
+		271298CB2536E188008DA2D6 /* SaiJsonConversionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaiJsonConversionModel.m; sourceTree = "<group>"; };
+		271298CC2536E188008DA2D6 /* QKUITools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKUITools.h; sourceTree = "<group>"; };
+		271298CD2536E188008DA2D6 /* GKTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKTimer.h; sourceTree = "<group>"; };
+		271298CE2536E188008DA2D6 /* SaiUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiUIUtils.h; sourceTree = "<group>"; };
+		271298CF2536E188008DA2D6 /* SaiJsonConversionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiJsonConversionModel.h; sourceTree = "<group>"; };
+		271298D02536E188008DA2D6 /* GKTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKTimer.m; sourceTree = "<group>"; };
+		271298D12536E188008DA2D6 /* QKUITools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKUITools.m; sourceTree = "<group>"; };
+		271298D22536E188008DA2D6 /* SaiUIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaiUIUtils.m; sourceTree = "<group>"; };
+		271298D42536E188008DA2D6 /* BaseNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNC.h; sourceTree = "<group>"; };
+		271298D52536E188008DA2D6 /* SaiTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaiTableView.m; sourceTree = "<group>"; };
+		271298D62536E188008DA2D6 /* BaseNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNC.m; sourceTree = "<group>"; };
+		271298D72536E188008DA2D6 /* SaiTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiTableView.h; sourceTree = "<group>"; };
+		271298DC2536E188008DA2D6 /* SaiAzeroManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiAzeroManager.h; sourceTree = "<group>"; };
+		271298DD2536E188008DA2D6 /* SaiAzeroManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SaiAzeroManager.mm; sourceTree = "<group>"; };
+		271298DF2536E188008DA2D6 /* SaiBaseRootController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SaiBaseRootController.mm; sourceTree = "<group>"; };
+		271298E02536E188008DA2D6 /* SaiBaseRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiBaseRootController.h; sourceTree = "<group>"; };
+		271298E22536E188008DA2D6 /* SaiNavigationConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiNavigationConfig.h; sourceTree = "<group>"; };
+		271298E32536E188008DA2D6 /* SaiNavigationConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaiNavigationConfig.m; sourceTree = "<group>"; };
+		271298E52536E188008DA2D6 /* SaiPlaySoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaiPlaySoundManager.m; sourceTree = "<group>"; };
+		271298E62536E188008DA2D6 /* AudioQueuePlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueuePlay.h; sourceTree = "<group>"; };
+		271298E72536E188008DA2D6 /* SaiPlaySoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiPlaySoundManager.h; sourceTree = "<group>"; };
+		271298E82536E188008DA2D6 /* AudioQueuePlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueuePlay.m; sourceTree = "<group>"; };
+		271298EE2536E188008DA2D6 /* SaiHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiHomePageViewController.h; sourceTree = "<group>"; };
+		271298EF2536E188008DA2D6 /* SaiHomePageViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SaiHomePageViewController.mm; sourceTree = "<group>"; };
+		271298F12536E188008DA2D6 /* SaiHomePageBallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiHomePageBallModel.h; sourceTree = "<group>"; };
+		271298F22536E188008DA2D6 /* SaiHomePageBallModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaiHomePageBallModel.m; sourceTree = "<group>"; };
+		271298F42536E188008DA2D6 /* DCardLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCardLayoutView.m; sourceTree = "<group>"; };
+		271298F52536E188008DA2D6 /* DPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPoint.h; sourceTree = "<group>"; };
+		271298F62536E188008DA2D6 /* DMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMatrix.h; sourceTree = "<group>"; };
+		271298F72536E188008DA2D6 /* DCardLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCardLayoutView.h; sourceTree = "<group>"; };
+		271298FA2536E188008DA2D6 /* SaiSoundWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaiSoundWaveView.m; sourceTree = "<group>"; };
+		271298FB2536E188008DA2D6 /* RecordSoundWaveAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordSoundWaveAnimationView.h; sourceTree = "<group>"; };
+		271298FC2536E188008DA2D6 /* SaiSoundWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiSoundWaveView.h; sourceTree = "<group>"; };
+		271298FD2536E188008DA2D6 /* RecordSoundWaveAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordSoundWaveAnimationView.m; sourceTree = "<group>"; };
+		271299002536E188008DA2D6 /* PPGetAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGetAddressBook.m; sourceTree = "<group>"; };
+		271299012536E188008DA2D6 /* PPPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPersonModel.m; sourceTree = "<group>"; };
+		271299022536E188008DA2D6 /* PPAddressBookHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPAddressBookHandle.h; sourceTree = "<group>"; };
+		271299032536E188008DA2D6 /* PPGetAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGetAddressBook.h; sourceTree = "<group>"; };
+		271299042536E188008DA2D6 /* PPPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPersonModel.h; sourceTree = "<group>"; };
+		271299052536E188008DA2D6 /* PPAddressBookHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPAddressBookHandle.m; sourceTree = "<group>"; };
+		271299072536E188008DA2D6 /* SaiMpToPcmManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiMpToPcmManager.h; sourceTree = "<group>"; };
+		271299082536E188008DA2D6 /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lame.framework; sourceTree = "<group>"; };
+		271299092536E188008DA2D6 /* SaiAvPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaiAvPlayerManager.m; sourceTree = "<group>"; };
+		2712990A2536E188008DA2D6 /* GKAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKAudioPlayer.h; sourceTree = "<group>"; };
+		2712990B2536E188008DA2D6 /* SaiMpToPcmManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaiMpToPcmManager.m; sourceTree = "<group>"; };
+		2712990C2536E188008DA2D6 /* SaiAvPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiAvPlayerManager.h; sourceTree = "<group>"; };
+		2712990D2536E188008DA2D6 /* GKAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKAudioPlayer.m; sourceTree = "<group>"; };
+		271299102536E188008DA2D6 /* XBEchoCancellation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBEchoCancellation.h; sourceTree = "<group>"; };
+		271299112536E188008DA2D6 /* XBEchoCancellation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBEchoCancellation.m; sourceTree = "<group>"; };
+		271299132536E188008DA2D6 /* MySpeechSynthesizer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MySpeechSynthesizer.mm; sourceTree = "<group>"; };
+		271299142536E188008DA2D6 /* SaiMp3AzeroSpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiMp3AzeroSpeaker.h; sourceTree = "<group>"; };
+		271299152536E188008DA2D6 /* MyAzeroAudioPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyAzeroAudioPlayer.mm; sourceTree = "<group>"; };
+		271299162536E188008DA2D6 /* MyAzeroExpress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAzeroExpress.h; sourceTree = "<group>"; };
+		271299172536E188008DA2D6 /* MyLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLogger.h; sourceTree = "<group>"; };
+		271299182536E188008DA2D6 /* SaiAlertMediaPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SaiAlertMediaPlayer.mm; sourceTree = "<group>"; };
+		271299192536E188008DA2D6 /* MyLocalDetectorEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocalDetectorEventHandler.h; sourceTree = "<group>"; };
+		2712991A2536E188008DA2D6 /* SaiAzeroClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SaiAzeroClient.mm; sourceTree = "<group>"; };
+		2712991B2536E188008DA2D6 /* SaiAzeroClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiAzeroClient.h; sourceTree = "<group>"; };
+		2712991C2536E188008DA2D6 /* MySpeechRecognizer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MySpeechRecognizer.mm; sourceTree = "<group>"; };
+		2712991D2536E188008DA2D6 /* SaiMyAzeroModeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiMyAzeroModeControl.h; sourceTree = "<group>"; };
+		2712991E2536E188008DA2D6 /* SaiTtsAzeroSpeaker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SaiTtsAzeroSpeaker.mm; sourceTree = "<group>"; };
+		2712991F2536E188008DA2D6 /* SaiMp3MediaPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SaiMp3MediaPlayer.mm; sourceTree = "<group>"; };
+		271299202536E188008DA2D6 /* MyTemplateRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTemplateRuntime.h; sourceTree = "<group>"; };
+		271299212536E188008DA2D6 /* MyAzeroAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAzeroAudioPlayer.h; sourceTree = "<group>"; };
+		271299222536E188008DA2D6 /* MyAzeroAlerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAzeroAlerts.h; sourceTree = "<group>"; };
+		271299232536E188008DA2D6 /* SaiMp3AzeroSpeaker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SaiMp3AzeroSpeaker.mm; sourceTree = "<group>"; };
+		271299242536E188008DA2D6 /* SaiMp3MediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiMp3MediaPlayer.h; sourceTree = "<group>"; };
+		271299252536E188008DA2D6 /* MyCBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCBL.h; sourceTree = "<group>"; };
+		271299262536E188008DA2D6 /* MyLogger.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyLogger.mm; sourceTree = "<group>"; };
+		271299272536E188008DA2D6 /* SaiTtsAzeroSpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiTtsAzeroSpeaker.h; sourceTree = "<group>"; };
+		271299282536E188008DA2D6 /* SaiPhoneCallController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SaiPhoneCallController.mm; sourceTree = "<group>"; };
+		271299292536E188008DA2D6 /* MySpeechRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySpeechRecognizer.h; sourceTree = "<group>"; };
+		2712992A2536E188008DA2D6 /* MyLocalDetectorEventHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyLocalDetectorEventHandler.mm; sourceTree = "<group>"; };
+		2712992B2536E188008DA2D6 /* MySpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySpeechSynthesizer.h; sourceTree = "<group>"; };
+		2712992C2536E189008DA2D6 /* SaiPhoneCallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiPhoneCallController.h; sourceTree = "<group>"; };
+		2712992D2536E189008DA2D6 /* MyCBL.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyCBL.mm; sourceTree = "<group>"; };
+		2712992E2536E189008DA2D6 /* MyAzeroExpress.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyAzeroExpress.mm; sourceTree = "<group>"; };
+		2712992F2536E189008DA2D6 /* SaiTtsMediaPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SaiTtsMediaPlayer.mm; sourceTree = "<group>"; };
+		271299302536E189008DA2D6 /* MyTemplateRuntime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyTemplateRuntime.mm; sourceTree = "<group>"; };
+		271299312536E189008DA2D6 /* SaiMyAzeroModeControl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SaiMyAzeroModeControl.mm; sourceTree = "<group>"; };
+		271299322536E189008DA2D6 /* SaiTtsMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiTtsMediaPlayer.h; sourceTree = "<group>"; };
+		271299332536E189008DA2D6 /* SaiAlertMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaiAlertMediaPlayer.h; sourceTree = "<group>"; };
+		271299342536E189008DA2D6 /* MyAzeroAlerts.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyAzeroAlerts.mm; sourceTree = "<group>"; };
 		2B600B6BE5EE4745B39C0B58F20BC795 /* Pods-AzeroSDK_iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AzeroSDK_iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C7C1B71238A5DDE969F26320919577A /* AzeroSDK_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AzeroSDK_iOS-Info.plist"; sourceTree = "<group>"; };
 		37959B9BDBE5F23E5D105DB36224656A /* Pods-AzeroSDK_iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AzeroSDK_iOS_Tests.modulemap"; sourceTree = "<group>"; };
@@ -92,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF76EE58FCF38F309DC27E94C76FEC04 /* Foundation.framework in Frameworks */,
+				27129D532536E18F008DA2D6 /* lame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,12 +327,323 @@
 		271294352536AF6D008DA2D6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				271298C32536E188008DA2D6 /* AzeroDemo */,
 				271294592536CF18008DA2D6 /* UIColor+SaiV1Color.h */,
 				271294582536CF18008DA2D6 /* UIColor+SaiV1Color.m */,
 				271294372536B2A8008DA2D6 /* EOColorView.h */,
 				271294362536B2A8008DA2D6 /* EOColorView.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		271298C32536E188008DA2D6 /* AzeroDemo */ = {
+			isa = PBXGroup;
+			children = (
+				271298C42536E188008DA2D6 /* SaiResource */,
+				271298E42536E188008DA2D6 /* PcmPlayManager */,
+				271298E92536E188008DA2D6 /* UIClasses */,
+				271299062536E188008DA2D6 /* Mp3ToPcm */,
+				2712990E2536E188008DA2D6 /* RecorderManager */,
+				271299122536E188008DA2D6 /* AzeroSubclass */,
+			);
+			name = AzeroDemo;
+			path = ../../../Ceshidemo/Ceshidemo/AzeroDemo;
+			sourceTree = "<group>";
+		};
+		271298C42536E188008DA2D6 /* SaiResource */ = {
+			isa = PBXGroup;
+			children = (
+				271298C52536E188008DA2D6 /* Others */,
+				271298D82536E188008DA2D6 /* Resource */,
+				271298DA2536E188008DA2D6 /* Main */,
+			);
+			path = SaiResource;
+			sourceTree = "<group>";
+		};
+		271298C52536E188008DA2D6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				271298C62536E188008DA2D6 /* Configuration */,
+				271298CA2536E188008DA2D6 /* Tools */,
+				271298D32536E188008DA2D6 /* CustomView */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		271298C62536E188008DA2D6 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				271298C72536E188008DA2D6 /* EUTDefine.h */,
+				271298C82536E188008DA2D6 /* Singleton.h */,
+				271298C92536E188008DA2D6 /* GlobalConfig.pch */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		271298CA2536E188008DA2D6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				271298CB2536E188008DA2D6 /* SaiJsonConversionModel.m */,
+				271298CC2536E188008DA2D6 /* QKUITools.h */,
+				271298CD2536E188008DA2D6 /* GKTimer.h */,
+				271298CE2536E188008DA2D6 /* SaiUIUtils.h */,
+				271298CF2536E188008DA2D6 /* SaiJsonConversionModel.h */,
+				271298D02536E188008DA2D6 /* GKTimer.m */,
+				271298D12536E188008DA2D6 /* QKUITools.m */,
+				271298D22536E188008DA2D6 /* SaiUIUtils.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		271298D32536E188008DA2D6 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				271298D42536E188008DA2D6 /* BaseNC.h */,
+				271298D52536E188008DA2D6 /* SaiTableView.m */,
+				271298D62536E188008DA2D6 /* BaseNC.m */,
+				271298D72536E188008DA2D6 /* SaiTableView.h */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		271298D82536E188008DA2D6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				271298D92536E188008DA2D6 /* Lib */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		271298D92536E188008DA2D6 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		271298DA2536E188008DA2D6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				271298DB2536E188008DA2D6 /* SaiAzeroManager */,
+				271298DE2536E188008DA2D6 /* BaseController */,
+				271298E12536E188008DA2D6 /* NavController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		271298DB2536E188008DA2D6 /* SaiAzeroManager */ = {
+			isa = PBXGroup;
+			children = (
+				271298DC2536E188008DA2D6 /* SaiAzeroManager.h */,
+				271298DD2536E188008DA2D6 /* SaiAzeroManager.mm */,
+			);
+			path = SaiAzeroManager;
+			sourceTree = "<group>";
+		};
+		271298DE2536E188008DA2D6 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				271298DF2536E188008DA2D6 /* SaiBaseRootController.mm */,
+				271298E02536E188008DA2D6 /* SaiBaseRootController.h */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		271298E12536E188008DA2D6 /* NavController */ = {
+			isa = PBXGroup;
+			children = (
+				271298E22536E188008DA2D6 /* SaiNavigationConfig.h */,
+				271298E32536E188008DA2D6 /* SaiNavigationConfig.m */,
+			);
+			path = NavController;
+			sourceTree = "<group>";
+		};
+		271298E42536E188008DA2D6 /* PcmPlayManager */ = {
+			isa = PBXGroup;
+			children = (
+				271298E52536E188008DA2D6 /* SaiPlaySoundManager.m */,
+				271298E62536E188008DA2D6 /* AudioQueuePlay.h */,
+				271298E72536E188008DA2D6 /* SaiPlaySoundManager.h */,
+				271298E82536E188008DA2D6 /* AudioQueuePlay.m */,
+			);
+			path = PcmPlayManager;
+			sourceTree = "<group>";
+		};
+		271298E92536E188008DA2D6 /* UIClasses */ = {
+			isa = PBXGroup;
+			children = (
+				271298EA2536E188008DA2D6 /* PlayMusic */,
+				271298EC2536E188008DA2D6 /* HomePage */,
+				271298F82536E188008DA2D6 /* Common */,
+				271298FE2536E188008DA2D6 /* AddressBook */,
+			);
+			path = UIClasses;
+			sourceTree = "<group>";
+		};
+		271298EA2536E188008DA2D6 /* PlayMusic */ = {
+			isa = PBXGroup;
+			children = (
+				271298EB2536E188008DA2D6 /* Model */,
+			);
+			path = PlayMusic;
+			sourceTree = "<group>";
+		};
+		271298EB2536E188008DA2D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		271298EC2536E188008DA2D6 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				271298ED2536E188008DA2D6 /* Controller */,
+				271298F02536E188008DA2D6 /* Model */,
+				271298F32536E188008DA2D6 /* Tool */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		271298ED2536E188008DA2D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				271298EE2536E188008DA2D6 /* SaiHomePageViewController.h */,
+				271298EF2536E188008DA2D6 /* SaiHomePageViewController.mm */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		271298F02536E188008DA2D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				271298F12536E188008DA2D6 /* SaiHomePageBallModel.h */,
+				271298F22536E188008DA2D6 /* SaiHomePageBallModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		271298F32536E188008DA2D6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				271298F42536E188008DA2D6 /* DCardLayoutView.m */,
+				271298F52536E188008DA2D6 /* DPoint.h */,
+				271298F62536E188008DA2D6 /* DMatrix.h */,
+				271298F72536E188008DA2D6 /* DCardLayoutView.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		271298F82536E188008DA2D6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				271298F92536E188008DA2D6 /* CommonView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		271298F92536E188008DA2D6 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				271298FA2536E188008DA2D6 /* SaiSoundWaveView.m */,
+				271298FB2536E188008DA2D6 /* RecordSoundWaveAnimationView.h */,
+				271298FC2536E188008DA2D6 /* SaiSoundWaveView.h */,
+				271298FD2536E188008DA2D6 /* RecordSoundWaveAnimationView.m */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		271298FE2536E188008DA2D6 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				271298FF2536E188008DA2D6 /* Model */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		271298FF2536E188008DA2D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				271299002536E188008DA2D6 /* PPGetAddressBook.m */,
+				271299012536E188008DA2D6 /* PPPersonModel.m */,
+				271299022536E188008DA2D6 /* PPAddressBookHandle.h */,
+				271299032536E188008DA2D6 /* PPGetAddressBook.h */,
+				271299042536E188008DA2D6 /* PPPersonModel.h */,
+				271299052536E188008DA2D6 /* PPAddressBookHandle.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		271299062536E188008DA2D6 /* Mp3ToPcm */ = {
+			isa = PBXGroup;
+			children = (
+				271299072536E188008DA2D6 /* SaiMpToPcmManager.h */,
+				271299082536E188008DA2D6 /* lame.framework */,
+				271299092536E188008DA2D6 /* SaiAvPlayerManager.m */,
+				2712990A2536E188008DA2D6 /* GKAudioPlayer.h */,
+				2712990B2536E188008DA2D6 /* SaiMpToPcmManager.m */,
+				2712990C2536E188008DA2D6 /* SaiAvPlayerManager.h */,
+				2712990D2536E188008DA2D6 /* GKAudioPlayer.m */,
+			);
+			path = Mp3ToPcm;
+			sourceTree = "<group>";
+		};
+		2712990E2536E188008DA2D6 /* RecorderManager */ = {
+			isa = PBXGroup;
+			children = (
+				2712990F2536E188008DA2D6 /* XBEchoCancellation */,
+			);
+			path = RecorderManager;
+			sourceTree = "<group>";
+		};
+		2712990F2536E188008DA2D6 /* XBEchoCancellation */ = {
+			isa = PBXGroup;
+			children = (
+				271299102536E188008DA2D6 /* XBEchoCancellation.h */,
+				271299112536E188008DA2D6 /* XBEchoCancellation.m */,
+			);
+			path = XBEchoCancellation;
+			sourceTree = "<group>";
+		};
+		271299122536E188008DA2D6 /* AzeroSubclass */ = {
+			isa = PBXGroup;
+			children = (
+				271299132536E188008DA2D6 /* MySpeechSynthesizer.mm */,
+				271299142536E188008DA2D6 /* SaiMp3AzeroSpeaker.h */,
+				271299152536E188008DA2D6 /* MyAzeroAudioPlayer.mm */,
+				271299162536E188008DA2D6 /* MyAzeroExpress.h */,
+				271299172536E188008DA2D6 /* MyLogger.h */,
+				271299182536E188008DA2D6 /* SaiAlertMediaPlayer.mm */,
+				271299192536E188008DA2D6 /* MyLocalDetectorEventHandler.h */,
+				2712991A2536E188008DA2D6 /* SaiAzeroClient.mm */,
+				2712991B2536E188008DA2D6 /* SaiAzeroClient.h */,
+				2712991C2536E188008DA2D6 /* MySpeechRecognizer.mm */,
+				2712991D2536E188008DA2D6 /* SaiMyAzeroModeControl.h */,
+				2712991E2536E188008DA2D6 /* SaiTtsAzeroSpeaker.mm */,
+				2712991F2536E188008DA2D6 /* SaiMp3MediaPlayer.mm */,
+				271299202536E188008DA2D6 /* MyTemplateRuntime.h */,
+				271299212536E188008DA2D6 /* MyAzeroAudioPlayer.h */,
+				271299222536E188008DA2D6 /* MyAzeroAlerts.h */,
+				271299232536E188008DA2D6 /* SaiMp3AzeroSpeaker.mm */,
+				271299242536E188008DA2D6 /* SaiMp3MediaPlayer.h */,
+				271299252536E188008DA2D6 /* MyCBL.h */,
+				271299262536E188008DA2D6 /* MyLogger.mm */,
+				271299272536E188008DA2D6 /* SaiTtsAzeroSpeaker.h */,
+				271299282536E188008DA2D6 /* SaiPhoneCallController.mm */,
+				271299292536E188008DA2D6 /* MySpeechRecognizer.h */,
+				2712992A2536E188008DA2D6 /* MyLocalDetectorEventHandler.mm */,
+				2712992B2536E188008DA2D6 /* MySpeechSynthesizer.h */,
+				2712992C2536E189008DA2D6 /* SaiPhoneCallController.h */,
+				2712992D2536E189008DA2D6 /* MyCBL.mm */,
+				2712992E2536E189008DA2D6 /* MyAzeroExpress.mm */,
+				2712992F2536E189008DA2D6 /* SaiTtsMediaPlayer.mm */,
+				271299302536E189008DA2D6 /* MyTemplateRuntime.mm */,
+				271299312536E189008DA2D6 /* SaiMyAzeroModeControl.mm */,
+				271299322536E189008DA2D6 /* SaiTtsMediaPlayer.h */,
+				271299332536E189008DA2D6 /* SaiAlertMediaPlayer.h */,
+				271299342536E189008DA2D6 /* MyAzeroAlerts.mm */,
+			);
+			path = AzeroSubclass;
 			sourceTree = "<group>";
 		};
 		36D0452A464267C6B1C2FE32D9408CF8 /* Support Files */ = {
@@ -255,9 +739,54 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27129D572536E18F008DA2D6 /* SaiAvPlayerManager.h in Headers */,
 				2712945B2536CF18008DA2D6 /* UIColor+SaiV1Color.h in Headers */,
+				27129D2D2536E18F008DA2D6 /* SaiUIUtils.h in Headers */,
+				27129D5C2536E18F008DA2D6 /* SaiMp3AzeroSpeaker.h in Headers */,
+				27129D732536E18F008DA2D6 /* MySpeechSynthesizer.h in Headers */,
+				27129D2E2536E18F008DA2D6 /* SaiJsonConversionModel.h in Headers */,
+				27129D3D2536E18F008DA2D6 /* AudioQueuePlay.h in Headers */,
+				27129D472536E18F008DA2D6 /* DCardLayoutView.h in Headers */,
+				27129D682536E18F008DA2D6 /* MyTemplateRuntime.h in Headers */,
+				27129D742536E18F008DA2D6 /* SaiPhoneCallController.h in Headers */,
+				27129D632536E18F008DA2D6 /* SaiAzeroClient.h in Headers */,
+				27129D522536E18F008DA2D6 /* SaiMpToPcmManager.h in Headers */,
+				27129D452536E18F008DA2D6 /* DPoint.h in Headers */,
 				BC68C77F0B5F1AF5306FF7F078E7959C /* AzeroSDK_iOS-umbrella.h in Headers */,
+				27129D4F2536E18F008DA2D6 /* PPGetAddressBook.h in Headers */,
+				27129D462536E18F008DA2D6 /* DMatrix.h in Headers */,
+				27129D502536E18F008DA2D6 /* PPPersonModel.h in Headers */,
+				27129D692536E18F008DA2D6 /* MyAzeroAudioPlayer.h in Headers */,
+				27129D592536E18F008DA2D6 /* XBEchoCancellation.h in Headers */,
+				27129D402536E18F008DA2D6 /* SaiHomePageViewController.h in Headers */,
+				27129D552536E18F008DA2D6 /* GKAudioPlayer.h in Headers */,
+				27129D3A2536E18F008DA2D6 /* SaiNavigationConfig.h in Headers */,
+				27129D352536E18F008DA2D6 /* SaiTableView.h in Headers */,
+				27129D612536E18F008DA2D6 /* MyLocalDetectorEventHandler.h in Headers */,
+				27129D6F2536E18F008DA2D6 /* SaiTtsAzeroSpeaker.h in Headers */,
+				27129D3E2536E18F008DA2D6 /* SaiPlaySoundManager.h in Headers */,
+				27129D2C2536E18F008DA2D6 /* GKTimer.h in Headers */,
+				27129D5E2536E18F008DA2D6 /* MyAzeroExpress.h in Headers */,
+				27129D7A2536E18F008DA2D6 /* SaiTtsMediaPlayer.h in Headers */,
+				27129D292536E18F008DA2D6 /* GlobalConfig.pch in Headers */,
+				27129D5F2536E18F008DA2D6 /* MyLogger.h in Headers */,
+				27129D6C2536E18F008DA2D6 /* SaiMp3MediaPlayer.h in Headers */,
+				27129D272536E18F008DA2D6 /* EUTDefine.h in Headers */,
 				271294392536B2A8008DA2D6 /* EOColorView.h in Headers */,
+				27129D492536E18F008DA2D6 /* RecordSoundWaveAnimationView.h in Headers */,
+				27129D712536E18F008DA2D6 /* MySpeechRecognizer.h in Headers */,
+				27129D652536E18F008DA2D6 /* SaiMyAzeroModeControl.h in Headers */,
+				27129D422536E18F008DA2D6 /* SaiHomePageBallModel.h in Headers */,
+				27129D282536E18F008DA2D6 /* Singleton.h in Headers */,
+				27129D2B2536E18F008DA2D6 /* QKUITools.h in Headers */,
+				27129D4A2536E18F008DA2D6 /* SaiSoundWaveView.h in Headers */,
+				27129D6D2536E18F008DA2D6 /* MyCBL.h in Headers */,
+				27129D4E2536E18F008DA2D6 /* PPAddressBookHandle.h in Headers */,
+				27129D322536E18F008DA2D6 /* BaseNC.h in Headers */,
+				27129D362536E18F008DA2D6 /* SaiAzeroManager.h in Headers */,
+				27129D7B2536E18F008DA2D6 /* SaiAlertMediaPlayer.h in Headers */,
+				27129D392536E18F008DA2D6 /* SaiBaseRootController.h in Headers */,
+				27129D6A2536E18F008DA2D6 /* MyAzeroAlerts.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,9 +931,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27129D442536E18F008DA2D6 /* DCardLayoutView.m in Sources */,
+				27129D662536E18F008DA2D6 /* SaiTtsAzeroSpeaker.mm in Sources */,
+				27129D432536E18F008DA2D6 /* SaiHomePageBallModel.m in Sources */,
+				27129D3F2536E18F008DA2D6 /* AudioQueuePlay.m in Sources */,
 				271294382536B2A8008DA2D6 /* EOColorView.m in Sources */,
+				27129D332536E18F008DA2D6 /* SaiTableView.m in Sources */,
+				27129D602536E18F008DA2D6 /* SaiAlertMediaPlayer.mm in Sources */,
+				27129D2F2536E18F008DA2D6 /* GKTimer.m in Sources */,
+				27129D702536E18F008DA2D6 /* SaiPhoneCallController.mm in Sources */,
+				27129D562536E18F008DA2D6 /* SaiMpToPcmManager.m in Sources */,
+				27129D6E2536E18F008DA2D6 /* MyLogger.mm in Sources */,
+				27129D312536E18F008DA2D6 /* SaiUIUtils.m in Sources */,
+				27129D762536E18F008DA2D6 /* MyAzeroExpress.mm in Sources */,
+				27129D2A2536E18F008DA2D6 /* SaiJsonConversionModel.m in Sources */,
+				27129D302536E18F008DA2D6 /* QKUITools.m in Sources */,
+				27129D4D2536E18F008DA2D6 /* PPPersonModel.m in Sources */,
+				27129D672536E18F008DA2D6 /* SaiMp3MediaPlayer.mm in Sources */,
+				27129D5D2536E18F008DA2D6 /* MyAzeroAudioPlayer.mm in Sources */,
+				27129D482536E18F008DA2D6 /* SaiSoundWaveView.m in Sources */,
 				2712945A2536CF18008DA2D6 /* UIColor+SaiV1Color.m in Sources */,
+				27129D3B2536E18F008DA2D6 /* SaiNavigationConfig.m in Sources */,
+				27129D782536E18F008DA2D6 /* MyTemplateRuntime.mm in Sources */,
+				27129D342536E18F008DA2D6 /* BaseNC.m in Sources */,
 				09D62B8228B2E01444BF4D1DA07A5CE2 /* AzeroSDK_iOS-dummy.m in Sources */,
+				27129D6B2536E18F008DA2D6 /* SaiMp3AzeroSpeaker.mm in Sources */,
+				27129D752536E18F008DA2D6 /* MyCBL.mm in Sources */,
+				27129D642536E18F008DA2D6 /* MySpeechRecognizer.mm in Sources */,
+				27129D622536E18F008DA2D6 /* SaiAzeroClient.mm in Sources */,
+				27129D7C2536E18F008DA2D6 /* MyAzeroAlerts.mm in Sources */,
+				27129D5B2536E18F008DA2D6 /* MySpeechSynthesizer.mm in Sources */,
+				27129D512536E18F008DA2D6 /* PPAddressBookHandle.m in Sources */,
+				27129D792536E18F008DA2D6 /* SaiMyAzeroModeControl.mm in Sources */,
+				27129D4C2536E18F008DA2D6 /* PPGetAddressBook.m in Sources */,
+				27129D382536E18F008DA2D6 /* SaiBaseRootController.mm in Sources */,
+				27129D412536E18F008DA2D6 /* SaiHomePageViewController.mm in Sources */,
+				27129D582536E18F008DA2D6 /* GKAudioPlayer.m in Sources */,
+				27129D772536E18F008DA2D6 /* SaiTtsMediaPlayer.mm in Sources */,
+				27129D5A2536E18F008DA2D6 /* XBEchoCancellation.m in Sources */,
+				27129D542536E18F008DA2D6 /* SaiAvPlayerManager.m in Sources */,
+				27129D722536E18F008DA2D6 /* MyLocalDetectorEventHandler.mm in Sources */,
+				27129D372536E18F008DA2D6 /* SaiAzeroManager.mm in Sources */,
+				27129D3C2536E18F008DA2D6 /* SaiPlaySoundManager.m in Sources */,
+				27129D4B2536E18F008DA2D6 /* RecordSoundWaveAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

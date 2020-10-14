@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AzeroSDK_iOS'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'description'
 
 # This description is used to generate tags and improve search results.
@@ -18,11 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-创建仓库进行初始化 创建仓库进行初始化
-创建仓库进行初始化
-创建仓库进行初始化
-
-DESC
+                         创建仓库进行初始化 创建仓库进行初始化
+                         创建仓库进行初始化
+                         创建仓库进行初始化
+                         DESC
 
   s.homepage         = 'https://github.com/wuxie8/AzeroSDK_iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -33,7 +32,7 @@ DESC
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Classes/Category/*.{h,m}'
+  s.source_files = 'Classes/Category/*'
 #  s.source_files = 'AzeroSDK_iOS/Classes/*.{h,m}'
 
   
@@ -47,5 +46,6 @@ DESC
 
 #   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', 'FreeStreamer' ,'SuperPlayer'                   # 音频播放
+
 end
