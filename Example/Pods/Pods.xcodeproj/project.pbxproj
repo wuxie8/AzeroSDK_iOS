@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037E3E96B68F235A6BEA2F2E34D1A79A /* Pods-AzeroSDK_iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D744CA57C0351811C6D329371142D85 /* Pods-AzeroSDK_iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09D62B8228B2E01444BF4D1DA07A5CE2 /* AzeroSDK_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 885C7A76BC2DC15423FC00B2306FB2EA /* AzeroSDK_iOS-dummy.m */; };
+		2DE5B035AC5665CEF7CC4091FCB31501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3571F21CCF724B6158DCB4D41124A265 /* Pods-AzeroSDK_iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1ED40ECEFA3979243385232B854993 /* Pods-AzeroSDK_iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633948AD65C6BB732FEF60D5F89A7AFC /* Pods-AzeroSDK_iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66666A210030134FAA49CB9258E9744C /* Pods-AzeroSDK_iOS_Example-dummy.m */; };
+		B01DB5BB0222E34CECE9BC5C8BE36AFC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C8276A157AC6AD952CAC73964C13E /* ReplaceMe.m */; };
+		B198DE6FAFB5EAAB5DFBE4B26C51D821 /* Pods-AzeroSDK_iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D16BA5456D428C8FAD92FCE5FADAB /* Pods-AzeroSDK_iOS_Tests-dummy.m */; };
+		BC68C77F0B5F1AF5306FF7F078E7959C /* AzeroSDK_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 825CCD249FA7F09B24F64CCA7BCB5BCD /* AzeroSDK_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7B1FFF816C7B79469A99FBF29E8999 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF76EE58FCF38F309DC27E94C76FEC04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A609C4D49D9D0A1880CA8D1DE0C6BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00D5F580EB4CF09C3AA36F5C0E6F14D;
+			remoteInfo = AzeroSDK_iOS;
+		};
+		DC0965823CA0652F9D74CD57C6A56402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3689046C64ED9BE4F9BCAFFDD4B8557;
+			remoteInfo = "Pods-AzeroSDK_iOS_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D744CA57C0351811C6D329371142D85 /* Pods-AzeroSDK_iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AzeroSDK_iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		22F8051CF8151E01A0227A7C908F502A /* Pods-AzeroSDK_iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AzeroSDK_iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		274C8276A157AC6AD952CAC73964C13E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AzeroSDK_iOS/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2B600B6BE5EE4745B39C0B58F20BC795 /* Pods-AzeroSDK_iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AzeroSDK_iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C7C1B71238A5DDE969F26320919577A /* AzeroSDK_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AzeroSDK_iOS-Info.plist"; sourceTree = "<group>"; };
+		37959B9BDBE5F23E5D105DB36224656A /* Pods-AzeroSDK_iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AzeroSDK_iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		3A4B601AE775DA0CCE4AD797F7F6C17B /* Pods-AzeroSDK_iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AzeroSDK_iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CA7296DDA6CA72329B55AF8A7D233B8 /* Pods-AzeroSDK_iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AzeroSDK_iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		50D30055278D9326134617A66A2039E8 /* Pods-AzeroSDK_iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AzeroSDK_iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		58EADC328187276A3891F3DD5E001986 /* Pods-AzeroSDK_iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AzeroSDK_iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		66666A210030134FAA49CB9258E9744C /* Pods-AzeroSDK_iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AzeroSDK_iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		6ABDE32F83CAA7CE09AA40075F863E60 /* Pods-AzeroSDK_iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AzeroSDK_iOS_Example.modulemap"; sourceTree = "<group>"; };
+		6FD5548540A89C7357E9A94DAF0AFA15 /* Pods-AzeroSDK_iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AzeroSDK_iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		790AE75CEB59E664BDDC52B3B9F00711 /* Pods-AzeroSDK_iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AzeroSDK_iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8087BB679A6805541764851DAD0333C5 /* Pods_AzeroSDK_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzeroSDK_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		825CCD249FA7F09B24F64CCA7BCB5BCD /* AzeroSDK_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AzeroSDK_iOS-umbrella.h"; sourceTree = "<group>"; };
+		885C7A76BC2DC15423FC00B2306FB2EA /* AzeroSDK_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AzeroSDK_iOS-dummy.m"; sourceTree = "<group>"; };
+		8CD4E2B36397E786E1B7AEE947CA9B8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		993D16BA5456D428C8FAD92FCE5FADAB /* Pods-AzeroSDK_iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AzeroSDK_iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA2327A365FC4BEE341391A29301A132 /* AzeroSDK_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzeroSDK_iOS.debug.xcconfig; sourceTree = "<group>"; };
+		AB1ED40ECEFA3979243385232B854993 /* Pods-AzeroSDK_iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AzeroSDK_iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD910C7645425D4CE87F6C52E21BE35A /* AzeroSDK_iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AzeroSDK_iOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7951B44BC4615C8A35C183919DCA25D /* Pods-AzeroSDK_iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AzeroSDK_iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4DC12447BAC07473B4EDC582BDBCF7C /* Pods-AzeroSDK_iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AzeroSDK_iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C579DB2FCBCB5E29455EF38B7A76B001 /* AzeroSDK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AzeroSDK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FD720F15458903D63EB7794A257577 /* Pods_AzeroSDK_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzeroSDK_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0533DAAC8BBE3843A012A9F462C78A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CD70CD6C04E0544499261E97A817C7DD /* Pods-AzeroSDK_iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AzeroSDK_iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		DFCB0095E2B3C17F650E485FEF78B764 /* AzeroSDK_iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AzeroSDK_iOS-prefix.pch"; sourceTree = "<group>"; };
+		F1E366DA953A8F6D1544D446CB9F198A /* AzeroSDK_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AzeroSDK_iOS.modulemap; sourceTree = "<group>"; };
+		FE81FBAEF91421B2323B9F43C0DE9F8F /* AzeroSDK_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzeroSDK_iOS.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5748EE4A649FFE9120A664C70F44E3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE5B035AC5665CEF7CC4091FCB31501 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBBAD7A19E231AACDE5886B0A2565047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF76EE58FCF38F309DC27E94C76FEC04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8B098F5F79D1101FC4D63FBD82D5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7B1FFF816C7B79469A99FBF29E8999 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5EC922F610DF99DBA41B0C85E30147 /* AzeroSDK_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				274C8276A157AC6AD952CAC73964C13E /* ReplaceMe.m */,
+				462674E0AD126F85281F0F6BB2E19DE9 /* Pod */,
+				36D0452A464267C6B1C2FE32D9408CF8 /* Support Files */,
+			);
+			name = AzeroSDK_iOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1038E4411ED517210A3EA1ABD21367C1 /* Pods-AzeroSDK_iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				37959B9BDBE5F23E5D105DB36224656A /* Pods-AzeroSDK_iOS_Tests.modulemap */,
+				3A4B601AE775DA0CCE4AD797F7F6C17B /* Pods-AzeroSDK_iOS_Tests-acknowledgements.markdown */,
+				B7951B44BC4615C8A35C183919DCA25D /* Pods-AzeroSDK_iOS_Tests-acknowledgements.plist */,
+				993D16BA5456D428C8FAD92FCE5FADAB /* Pods-AzeroSDK_iOS_Tests-dummy.m */,
+				CD70CD6C04E0544499261E97A817C7DD /* Pods-AzeroSDK_iOS_Tests-Info.plist */,
+				AB1ED40ECEFA3979243385232B854993 /* Pods-AzeroSDK_iOS_Tests-umbrella.h */,
+				790AE75CEB59E664BDDC52B3B9F00711 /* Pods-AzeroSDK_iOS_Tests.debug.xcconfig */,
+				6FD5548540A89C7357E9A94DAF0AFA15 /* Pods-AzeroSDK_iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-AzeroSDK_iOS_Tests";
+			path = "Target Support Files/Pods-AzeroSDK_iOS_Tests";
+			sourceTree = "<group>";
+		};
+		26AFD822CE787472DA59BCC0AD56D46A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C579DB2FCBCB5E29455EF38B7A76B001 /* AzeroSDK_iOS.framework */,
+				C6FD720F15458903D63EB7794A257577 /* Pods_AzeroSDK_iOS_Example.framework */,
+				8087BB679A6805541764851DAD0333C5 /* Pods_AzeroSDK_iOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36D0452A464267C6B1C2FE32D9408CF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1E366DA953A8F6D1544D446CB9F198A /* AzeroSDK_iOS.modulemap */,
+				885C7A76BC2DC15423FC00B2306FB2EA /* AzeroSDK_iOS-dummy.m */,
+				2C7C1B71238A5DDE969F26320919577A /* AzeroSDK_iOS-Info.plist */,
+				DFCB0095E2B3C17F650E485FEF78B764 /* AzeroSDK_iOS-prefix.pch */,
+				825CCD249FA7F09B24F64CCA7BCB5BCD /* AzeroSDK_iOS-umbrella.h */,
+				AA2327A365FC4BEE341391A29301A132 /* AzeroSDK_iOS.debug.xcconfig */,
+				FE81FBAEF91421B2323B9F43C0DE9F8F /* AzeroSDK_iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AzeroSDK_iOS";
+			sourceTree = "<group>";
+		};
+		3AB9F9E2D03C24053BD2CD3D116447E6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D5EC922F610DF99DBA41B0C85E30147 /* AzeroSDK_iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		462674E0AD126F85281F0F6BB2E19DE9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AD910C7645425D4CE87F6C52E21BE35A /* AzeroSDK_iOS.podspec */,
+				CB0533DAAC8BBE3843A012A9F462C78A /* LICENSE */,
+				8CD4E2B36397E786E1B7AEE947CA9B8B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7AD83A758DD019AC13CF98E3E56E7DAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF0EC5E50A919C3388E641FC8F71A7 /* Pods-AzeroSDK_iOS_Example */,
+				1038E4411ED517210A3EA1ABD21367C1 /* Pods-AzeroSDK_iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AEAF0EC5E50A919C3388E641FC8F71A7 /* Pods-AzeroSDK_iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6ABDE32F83CAA7CE09AA40075F863E60 /* Pods-AzeroSDK_iOS_Example.modulemap */,
+				2B600B6BE5EE4745B39C0B58F20BC795 /* Pods-AzeroSDK_iOS_Example-acknowledgements.markdown */,
+				C4DC12447BAC07473B4EDC582BDBCF7C /* Pods-AzeroSDK_iOS_Example-acknowledgements.plist */,
+				66666A210030134FAA49CB9258E9744C /* Pods-AzeroSDK_iOS_Example-dummy.m */,
+				22F8051CF8151E01A0227A7C908F502A /* Pods-AzeroSDK_iOS_Example-frameworks.sh */,
+				4CA7296DDA6CA72329B55AF8A7D233B8 /* Pods-AzeroSDK_iOS_Example-Info.plist */,
+				0D744CA57C0351811C6D329371142D85 /* Pods-AzeroSDK_iOS_Example-umbrella.h */,
+				58EADC328187276A3891F3DD5E001986 /* Pods-AzeroSDK_iOS_Example.debug.xcconfig */,
+				50D30055278D9326134617A66A2039E8 /* Pods-AzeroSDK_iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-AzeroSDK_iOS_Example";
+			path = "Target Support Files/Pods-AzeroSDK_iOS_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3AB9F9E2D03C24053BD2CD3D116447E6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				26AFD822CE787472DA59BCC0AD56D46A /* Products */,
+				7AD83A758DD019AC13CF98E3E56E7DAD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		712D0593D951F64DC0ACD4E88C8C4A01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC68C77F0B5F1AF5306FF7F078E7959C /* AzeroSDK_iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBC185EA3C13D2108E9B8C00481951F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037E3E96B68F235A6BEA2F2E34D1A79A /* Pods-AzeroSDK_iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7769047C07B836C80B51FAA09C2D210 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3571F21CCF724B6158DCB4D41124A265 /* Pods-AzeroSDK_iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B26D9BFC638FA97A4E841ABA8A49E94 /* Pods-AzeroSDK_iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D65B4AAD0F87BD759DB01C01A8CAC91 /* Build configuration list for PBXNativeTarget "Pods-AzeroSDK_iOS_Tests" */;
+			buildPhases = (
+				A7769047C07B836C80B51FAA09C2D210 /* Headers */,
+				0C60A1DA754C130AF4726EF3893EBB49 /* Sources */,
+				EB8B098F5F79D1101FC4D63FBD82D5EA /* Frameworks */,
+				992C0DB9F084BB3BCDC5381C44A82EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C620A003F2B89A3E64A1581244A218D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-AzeroSDK_iOS_Tests";
+			productName = "Pods-AzeroSDK_iOS_Tests";
+			productReference = 8087BB679A6805541764851DAD0333C5 /* Pods_AzeroSDK_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E00D5F580EB4CF09C3AA36F5C0E6F14D /* AzeroSDK_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8184ED4AE60E26ABD680EBE433F8AD9B /* Build configuration list for PBXNativeTarget "AzeroSDK_iOS" */;
+			buildPhases = (
+				712D0593D951F64DC0ACD4E88C8C4A01 /* Headers */,
+				605E9FF95974A94B5F9225F48CD73F1A /* Sources */,
+				CBBAD7A19E231AACDE5886B0A2565047 /* Frameworks */,
+				20EE9F32F190826D61290CB8E615F432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzeroSDK_iOS;
+			productName = AzeroSDK_iOS;
+			productReference = C579DB2FCBCB5E29455EF38B7A76B001 /* AzeroSDK_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3689046C64ED9BE4F9BCAFFDD4B8557 /* Pods-AzeroSDK_iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2F1EE7B8EF874783151D5E8F91F2B5 /* Build configuration list for PBXNativeTarget "Pods-AzeroSDK_iOS_Example" */;
+			buildPhases = (
+				8CBC185EA3C13D2108E9B8C00481951F /* Headers */,
+				9F1F5C0977AE69D28ED22D8FC20227A3 /* Sources */,
+				5748EE4A649FFE9120A664C70F44E3DF /* Frameworks */,
+				ABDABC2546B144AD07E39BC7E5896A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA291907659EE114F58E75A75267755 /* PBXTargetDependency */,
+			);
+			name = "Pods-AzeroSDK_iOS_Example";
+			productName = "Pods-AzeroSDK_iOS_Example";
+			productReference = C6FD720F15458903D63EB7794A257577 /* Pods_AzeroSDK_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 26AFD822CE787472DA59BCC0AD56D46A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00D5F580EB4CF09C3AA36F5C0E6F14D /* AzeroSDK_iOS */,
+				F3689046C64ED9BE4F9BCAFFDD4B8557 /* Pods-AzeroSDK_iOS_Example */,
+				8B26D9BFC638FA97A4E841ABA8A49E94 /* Pods-AzeroSDK_iOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20EE9F32F190826D61290CB8E615F432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992C0DB9F084BB3BCDC5381C44A82EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDABC2546B144AD07E39BC7E5896A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C60A1DA754C130AF4726EF3893EBB49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B198DE6FAFB5EAAB5DFBE4B26C51D821 /* Pods-AzeroSDK_iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605E9FF95974A94B5F9225F48CD73F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D62B8228B2E01444BF4D1DA07A5CE2 /* AzeroSDK_iOS-dummy.m in Sources */,
+				B01DB5BB0222E34CECE9BC5C8BE36AFC /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1F5C0977AE69D28ED22D8FC20227A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633948AD65C6BB732FEF60D5F89A7AFC /* Pods-AzeroSDK_iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CA291907659EE114F58E75A75267755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AzeroSDK_iOS;
+			target = E00D5F580EB4CF09C3AA36F5C0E6F14D /* AzeroSDK_iOS */;
+			targetProxy = 0A609C4D49D9D0A1880CA8D1DE0C6BF8 /* PBXContainerItemProxy */;
+		};
+		C620A003F2B89A3E64A1581244A218D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AzeroSDK_iOS_Example";
+			target = F3689046C64ED9BE4F9BCAFFDD4B8557 /* Pods-AzeroSDK_iOS_Example */;
+			targetProxy = DC0965823CA0652F9D74CD57C6A56402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EBA8CC549CA670795A599D52D80C85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD5548540A89C7357E9A94DAF0AFA15 /* Pods-AzeroSDK_iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Tests/Pods-AzeroSDK_iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Tests/Pods-AzeroSDK_iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ADF7E81B5E0B5FA1830DDC3125D340FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58EADC328187276A3891F3DD5E001986 /* Pods-AzeroSDK_iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Example/Pods-AzeroSDK_iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Example/Pods-AzeroSDK_iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9EF292D0E9B533014FCECF51108AB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2327A365FC4BEE341391A29301A132 /* AzeroSDK_iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AzeroSDK_iOS/AzeroSDK_iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AzeroSDK_iOS/AzeroSDK_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AzeroSDK_iOS/AzeroSDK_iOS.modulemap";
+				PRODUCT_MODULE_NAME = AzeroSDK_iOS;
+				PRODUCT_NAME = AzeroSDK_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4754ECEF170C26EA8FD80D2C0C3115B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D30055278D9326134617A66A2039E8 /* Pods-AzeroSDK_iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Example/Pods-AzeroSDK_iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Example/Pods-AzeroSDK_iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E4FB7A2FB08363637805EFBF72010CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE81FBAEF91421B2323B9F43C0DE9F8F /* AzeroSDK_iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AzeroSDK_iOS/AzeroSDK_iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AzeroSDK_iOS/AzeroSDK_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AzeroSDK_iOS/AzeroSDK_iOS.modulemap";
+				PRODUCT_MODULE_NAME = AzeroSDK_iOS;
+				PRODUCT_NAME = AzeroSDK_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD2B490C76F7EAC75ADFD55BEF450DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790AE75CEB59E664BDDC52B3B9F00711 /* Pods-AzeroSDK_iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Tests/Pods-AzeroSDK_iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Tests/Pods-AzeroSDK_iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8184ED4AE60E26ABD680EBE433F8AD9B /* Build configuration list for PBXNativeTarget "AzeroSDK_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EF292D0E9B533014FCECF51108AB41 /* Debug */,
+				E4FB7A2FB08363637805EFBF72010CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D65B4AAD0F87BD759DB01C01A8CAC91 /* Build configuration list for PBXNativeTarget "Pods-AzeroSDK_iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2B490C76F7EAC75ADFD55BEF450DD8 /* Debug */,
+				1EBA8CC549CA670795A599D52D80C85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2F1EE7B8EF874783151D5E8F91F2B5 /* Build configuration list for PBXNativeTarget "Pods-AzeroSDK_iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF7E81B5E0B5FA1830DDC3125D340FD /* Debug */,
+				E4754ECEF170C26EA8FD80D2C0C3115B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

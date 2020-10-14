@@ -1,0 +1,16 @@
+PODS:
+  - AzeroSDK_iOS (0.1.0)
+
+DEPENDENCIES:
+  - AzeroSDK_iOS (from `../`)
+
+EXTERNAL SOURCES:
+  AzeroSDK_iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AzeroSDK_iOS: 0383be32971f25796b672d877b73923cec273c15
+
+PODFILE CHECKSUM: 3a0a7f3c2905b68cc89eb30d9552ebbcb9ca0d19
+
+COCOAPODS: 1.10.0.rc.1
