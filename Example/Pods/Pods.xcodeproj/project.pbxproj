@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		037E3E96B68F235A6BEA2F2E34D1A79A /* Pods-AzeroSDK_iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D744CA57C0351811C6D329371142D85 /* Pods-AzeroSDK_iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09D62B8228B2E01444BF4D1DA07A5CE2 /* AzeroSDK_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 885C7A76BC2DC15423FC00B2306FB2EA /* AzeroSDK_iOS-dummy.m */; };
+		271294382536B2A8008DA2D6 /* EOColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 271294362536B2A8008DA2D6 /* EOColorView.m */; };
+		271294392536B2A8008DA2D6 /* EOColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 271294372536B2A8008DA2D6 /* EOColorView.h */; };
+		2712945A2536CF18008DA2D6 /* UIColor+SaiV1Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 271294582536CF18008DA2D6 /* UIColor+SaiV1Color.m */; };
+		2712945B2536CF18008DA2D6 /* UIColor+SaiV1Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 271294592536CF18008DA2D6 /* UIColor+SaiV1Color.h */; };
 		2DE5B035AC5665CEF7CC4091FCB31501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3571F21CCF724B6158DCB4D41124A265 /* Pods-AzeroSDK_iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1ED40ECEFA3979243385232B854993 /* Pods-AzeroSDK_iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		633948AD65C6BB732FEF60D5F89A7AFC /* Pods-AzeroSDK_iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66666A210030134FAA49CB9258E9744C /* Pods-AzeroSDK_iOS_Example-dummy.m */; };
-		B01DB5BB0222E34CECE9BC5C8BE36AFC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C8276A157AC6AD952CAC73964C13E /* ReplaceMe.m */; };
 		B198DE6FAFB5EAAB5DFBE4B26C51D821 /* Pods-AzeroSDK_iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D16BA5456D428C8FAD92FCE5FADAB /* Pods-AzeroSDK_iOS_Tests-dummy.m */; };
 		BC68C77F0B5F1AF5306FF7F078E7959C /* AzeroSDK_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 825CCD249FA7F09B24F64CCA7BCB5BCD /* AzeroSDK_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB7B1FFF816C7B79469A99FBF29E8999 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -39,7 +42,10 @@
 /* Begin PBXFileReference section */
 		0D744CA57C0351811C6D329371142D85 /* Pods-AzeroSDK_iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AzeroSDK_iOS_Example-umbrella.h"; sourceTree = "<group>"; };
 		22F8051CF8151E01A0227A7C908F502A /* Pods-AzeroSDK_iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AzeroSDK_iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
-		274C8276A157AC6AD952CAC73964C13E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AzeroSDK_iOS/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		271294362536B2A8008DA2D6 /* EOColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOColorView.m; sourceTree = "<group>"; };
+		271294372536B2A8008DA2D6 /* EOColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOColorView.h; sourceTree = "<group>"; };
+		271294582536CF18008DA2D6 /* UIColor+SaiV1Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SaiV1Color.m"; sourceTree = "<group>"; };
+		271294592536CF18008DA2D6 /* UIColor+SaiV1Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SaiV1Color.h"; sourceTree = "<group>"; };
 		2B600B6BE5EE4745B39C0B58F20BC795 /* Pods-AzeroSDK_iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AzeroSDK_iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C7C1B71238A5DDE969F26320919577A /* AzeroSDK_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AzeroSDK_iOS-Info.plist"; sourceTree = "<group>"; };
 		37959B9BDBE5F23E5D105DB36224656A /* Pods-AzeroSDK_iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AzeroSDK_iOS_Tests.modulemap"; sourceTree = "<group>"; };
@@ -103,7 +109,7 @@
 		0D5EC922F610DF99DBA41B0C85E30147 /* AzeroSDK_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				274C8276A157AC6AD952CAC73964C13E /* ReplaceMe.m */,
+				271294292536AD28008DA2D6 /* Classes */,
 				462674E0AD126F85281F0F6BB2E19DE9 /* Pod */,
 				36D0452A464267C6B1C2FE32D9408CF8 /* Support Files */,
 			);
@@ -135,6 +141,25 @@
 				8087BB679A6805541764851DAD0333C5 /* Pods_AzeroSDK_iOS_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		271294292536AD28008DA2D6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				271294352536AF6D008DA2D6 /* Category */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		271294352536AF6D008DA2D6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				271294592536CF18008DA2D6 /* UIColor+SaiV1Color.h */,
+				271294582536CF18008DA2D6 /* UIColor+SaiV1Color.m */,
+				271294372536B2A8008DA2D6 /* EOColorView.h */,
+				271294362536B2A8008DA2D6 /* EOColorView.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		36D0452A464267C6B1C2FE32D9408CF8 /* Support Files */ = {
@@ -230,7 +255,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2712945B2536CF18008DA2D6 /* UIColor+SaiV1Color.h in Headers */,
 				BC68C77F0B5F1AF5306FF7F078E7959C /* AzeroSDK_iOS-umbrella.h in Headers */,
+				271294392536B2A8008DA2D6 /* EOColorView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +402,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271294382536B2A8008DA2D6 /* EOColorView.m in Sources */,
+				2712945A2536CF18008DA2D6 /* UIColor+SaiV1Color.m in Sources */,
 				09D62B8228B2E01444BF4D1DA07A5CE2 /* AzeroSDK_iOS-dummy.m in Sources */,
-				B01DB5BB0222E34CECE9BC5C8BE36AFC /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

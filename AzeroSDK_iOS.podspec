@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AzeroSDK_iOS'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'description'
 
 # This description is used to generate tags and improve search results.
@@ -33,13 +33,19 @@ DESC
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'AzeroSDK_iOS/Classes/**/*'
+  s.source_files = 'Classes/Category/*.{h,m}'
+#  s.source_files = 'AzeroSDK_iOS/Classes/*.{h,m}'
+
   
+#  s.subspec 'Category' do |ss|
+#      ss.source_files = 'AzeroSDK_iOS/Classes/Category/*.{h,m}'
+#  end
+
   # s.resource_bundles = {
   #   'AzeroSDK_iOS' => ['AzeroSDK_iOS/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+#   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
