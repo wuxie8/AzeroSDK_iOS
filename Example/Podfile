@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AzeroSDK_iOS_Example' do
+  pod 'AzeroSDK_iOS', :path => '../'
+
+  target 'AzeroSDK_iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
