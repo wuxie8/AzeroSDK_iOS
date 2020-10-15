@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AzeroSDK_iOS'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'description'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Classes/Category/*'
+  s.source_files = 'Classes/Category/**/*'
 #  s.source_files = 'AzeroSDK_iOS/Classes/*.{h,m}'
 
   
@@ -46,6 +46,6 @@ Pod::Spec.new do |s|
 
 #   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking', 'FreeStreamer' ,'SuperPlayer'                   # 音频播放
+#   s.dependency 'AFNetworking', 'FreeStreamer' ,'SuperPlayer'                   # 音频播放
 
 end
