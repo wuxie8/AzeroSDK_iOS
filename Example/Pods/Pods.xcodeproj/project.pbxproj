@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		037E3E96B68F235A6BEA2F2E34D1A79A /* Pods-AzeroSDK_iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D744CA57C0351811C6D329371142D85 /* Pods-AzeroSDK_iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09D62B8228B2E01444BF4D1DA07A5CE2 /* AzeroSDK_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 885C7A76BC2DC15423FC00B2306FB2EA /* AzeroSDK_iOS-dummy.m */; };
-		271294382536B2A8008DA2D6 /* EOColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 271294362536B2A8008DA2D6 /* EOColorView.m */; };
-		271294392536B2A8008DA2D6 /* EOColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 271294372536B2A8008DA2D6 /* EOColorView.h */; };
-		2712945A2536CF18008DA2D6 /* UIColor+SaiV1Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 271294582536CF18008DA2D6 /* UIColor+SaiV1Color.m */; };
-		2712945B2536CF18008DA2D6 /* UIColor+SaiV1Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 271294592536CF18008DA2D6 /* UIColor+SaiV1Color.h */; };
 		27129D272536E18F008DA2D6 /* EUTDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298C72536E188008DA2D6 /* EUTDefine.h */; };
 		27129D282536E18F008DA2D6 /* Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298C82536E188008DA2D6 /* Singleton.h */; };
 		27129D292536E18F008DA2D6 /* GlobalConfig.pch in Headers */ = {isa = PBXBuildFile; fileRef = 271298C92536E188008DA2D6 /* GlobalConfig.pch */; };
@@ -28,7 +24,7 @@
 		27129D332536E18F008DA2D6 /* SaiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298D52536E188008DA2D6 /* SaiTableView.m */; };
 		27129D342536E18F008DA2D6 /* BaseNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 271298D62536E188008DA2D6 /* BaseNC.m */; };
 		27129D352536E18F008DA2D6 /* SaiTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298D72536E188008DA2D6 /* SaiTableView.h */; };
-		27129D362536E18F008DA2D6 /* SaiAzeroManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298DC2536E188008DA2D6 /* SaiAzeroManager.h */; };
+		27129D362536E18F008DA2D6 /* SaiAzeroManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298DC2536E188008DA2D6 /* SaiAzeroManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27129D372536E18F008DA2D6 /* SaiAzeroManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271298DD2536E188008DA2D6 /* SaiAzeroManager.mm */; };
 		27129D382536E18F008DA2D6 /* SaiBaseRootController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 271298DF2536E188008DA2D6 /* SaiBaseRootController.mm */; };
 		27129D392536E18F008DA2D6 /* SaiBaseRootController.h in Headers */ = {isa = PBXBuildFile; fileRef = 271298E02536E188008DA2D6 /* SaiBaseRootController.h */; };
@@ -128,10 +124,6 @@
 /* Begin PBXFileReference section */
 		0D744CA57C0351811C6D329371142D85 /* Pods-AzeroSDK_iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AzeroSDK_iOS_Example-umbrella.h"; sourceTree = "<group>"; };
 		22F8051CF8151E01A0227A7C908F502A /* Pods-AzeroSDK_iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AzeroSDK_iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
-		271294362536B2A8008DA2D6 /* EOColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOColorView.m; sourceTree = "<group>"; };
-		271294372536B2A8008DA2D6 /* EOColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOColorView.h; sourceTree = "<group>"; };
-		271294582536CF18008DA2D6 /* UIColor+SaiV1Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SaiV1Color.m"; sourceTree = "<group>"; };
-		271294592536CF18008DA2D6 /* UIColor+SaiV1Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SaiV1Color.h"; sourceTree = "<group>"; };
 		271298C72536E188008DA2D6 /* EUTDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUTDefine.h; sourceTree = "<group>"; };
 		271298C82536E188008DA2D6 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		271298C92536E188008DA2D6 /* GlobalConfig.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConfig.pch; sourceTree = "<group>"; };
@@ -328,10 +320,6 @@
 			isa = PBXGroup;
 			children = (
 				271298C32536E188008DA2D6 /* AzeroDemo */,
-				271294592536CF18008DA2D6 /* UIColor+SaiV1Color.h */,
-				271294582536CF18008DA2D6 /* UIColor+SaiV1Color.m */,
-				271294372536B2A8008DA2D6 /* EOColorView.h */,
-				271294362536B2A8008DA2D6 /* EOColorView.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -739,8 +727,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27129D362536E18F008DA2D6 /* SaiAzeroManager.h in Headers */,
 				27129D572536E18F008DA2D6 /* SaiAvPlayerManager.h in Headers */,
-				2712945B2536CF18008DA2D6 /* UIColor+SaiV1Color.h in Headers */,
 				27129D2D2536E18F008DA2D6 /* SaiUIUtils.h in Headers */,
 				27129D5C2536E18F008DA2D6 /* SaiMp3AzeroSpeaker.h in Headers */,
 				27129D732536E18F008DA2D6 /* MySpeechSynthesizer.h in Headers */,
@@ -772,7 +760,6 @@
 				27129D5F2536E18F008DA2D6 /* MyLogger.h in Headers */,
 				27129D6C2536E18F008DA2D6 /* SaiMp3MediaPlayer.h in Headers */,
 				27129D272536E18F008DA2D6 /* EUTDefine.h in Headers */,
-				271294392536B2A8008DA2D6 /* EOColorView.h in Headers */,
 				27129D492536E18F008DA2D6 /* RecordSoundWaveAnimationView.h in Headers */,
 				27129D712536E18F008DA2D6 /* MySpeechRecognizer.h in Headers */,
 				27129D652536E18F008DA2D6 /* SaiMyAzeroModeControl.h in Headers */,
@@ -783,7 +770,6 @@
 				27129D6D2536E18F008DA2D6 /* MyCBL.h in Headers */,
 				27129D4E2536E18F008DA2D6 /* PPAddressBookHandle.h in Headers */,
 				27129D322536E18F008DA2D6 /* BaseNC.h in Headers */,
-				27129D362536E18F008DA2D6 /* SaiAzeroManager.h in Headers */,
 				27129D7B2536E18F008DA2D6 /* SaiAlertMediaPlayer.h in Headers */,
 				27129D392536E18F008DA2D6 /* SaiBaseRootController.h in Headers */,
 				27129D6A2536E18F008DA2D6 /* MyAzeroAlerts.h in Headers */,
@@ -872,7 +858,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1200;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -935,7 +921,6 @@
 				27129D662536E18F008DA2D6 /* SaiTtsAzeroSpeaker.mm in Sources */,
 				27129D432536E18F008DA2D6 /* SaiHomePageBallModel.m in Sources */,
 				27129D3F2536E18F008DA2D6 /* AudioQueuePlay.m in Sources */,
-				271294382536B2A8008DA2D6 /* EOColorView.m in Sources */,
 				27129D332536E18F008DA2D6 /* SaiTableView.m in Sources */,
 				27129D602536E18F008DA2D6 /* SaiAlertMediaPlayer.mm in Sources */,
 				27129D2F2536E18F008DA2D6 /* GKTimer.m in Sources */,
@@ -950,7 +935,6 @@
 				27129D672536E18F008DA2D6 /* SaiMp3MediaPlayer.mm in Sources */,
 				27129D5D2536E18F008DA2D6 /* MyAzeroAudioPlayer.mm in Sources */,
 				27129D482536E18F008DA2D6 /* SaiSoundWaveView.m in Sources */,
-				2712945A2536CF18008DA2D6 /* UIColor+SaiV1Color.m in Sources */,
 				27129D3B2536E18F008DA2D6 /* SaiNavigationConfig.m in Sources */,
 				27129D782536E18F008DA2D6 /* MyTemplateRuntime.mm in Sources */,
 				27129D342536E18F008DA2D6 /* BaseNC.m in Sources */,
@@ -1018,7 +1002,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Tests/Pods-AzeroSDK_iOS_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Tests/Pods-AzeroSDK_iOS_Tests.modulemap";
@@ -1086,7 +1070,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1112,7 +1096,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Example/Pods-AzeroSDK_iOS_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Example/Pods-AzeroSDK_iOS_Example.modulemap";
@@ -1144,7 +1128,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzeroSDK_iOS/AzeroSDK_iOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzeroSDK_iOS/AzeroSDK_iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AzeroSDK_iOS/AzeroSDK_iOS.modulemap";
 				PRODUCT_MODULE_NAME = AzeroSDK_iOS;
@@ -1174,7 +1158,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Example/Pods-AzeroSDK_iOS_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Example/Pods-AzeroSDK_iOS_Example.modulemap";
@@ -1245,7 +1229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1273,7 +1257,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzeroSDK_iOS/AzeroSDK_iOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzeroSDK_iOS/AzeroSDK_iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AzeroSDK_iOS/AzeroSDK_iOS.modulemap";
 				PRODUCT_MODULE_NAME = AzeroSDK_iOS;
@@ -1304,7 +1288,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Tests/Pods-AzeroSDK_iOS_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AzeroSDK_iOS_Tests/Pods-AzeroSDK_iOS_Tests.modulemap";

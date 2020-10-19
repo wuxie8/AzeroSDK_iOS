@@ -43,9 +43,10 @@ Pod::Spec.new do |s|
   # s.resource_bundles = {
   #   'AzeroSDK_iOS' => ['AzeroSDK_iOS/Assets/*.png']
   # }
+ 
 
-#   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'AzeroDemo/SaiResource/Others/Configuration/GlobalConfig.pch'
   # s.frameworks = 'UIKit', 'MapKit'
-#   s.dependency 'AFNetworking', 'FreeStreamer' ,'SuperPlayer'                   # 音频播放
+   s.dependency 'AFNetworking', 'FreeStreamer' ,'SuperPlayer' ,'Masonry'                  # 音频播放
 
 end
